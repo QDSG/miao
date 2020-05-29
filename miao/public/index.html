@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/common.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>libs/swiper-4.1.0.min.css">
+    <script src="<%= BASE_URL %>libs/swiper-4.1.0.min.js"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <style>
+      #app{ display: flex; height:100%;}
+      #app div{ margin : auto;     }     
+      #main  #header{
+        position: fixed;
+        z-index: 2;
+      }
+      #main div header{
+        width: 100%;
+        position: fixed;
+        top:31px;
+        z-index: 2;
+      }
+    
+
+      #views .cart-checkout{
+        display: fixed;
+        bottom: 50px;
+      }
+      #views .cart-panel:after{
+        content: '';
+        display: block;
+        height: 108px;
+      }
+    </style>
+    <div id="app">
+      <div>喵喵网努力加载中...</div>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

@@ -23,10 +23,8 @@ var Email={
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: '454572457@qq.com', // generated ethereal user
-            pass: 'tknbyeppwduebibj' // generated ethereal password
-            // user: '1970890423@qq.com', // generated ethereal user
-            // pass: 'ljxywvmnrzhncabf' // generated ethereal password
+            user: '', // generated ethereal user
+            pass: '' // generated ethereal password
         }   
     },
     get transporter(){

@@ -105,4 +105,5 @@ export default {
 
 <style scoped>
 .userHead{ width:100px; height:100px; border-radius: 50%; overflow: hidden;}
+a {color: -webkit-link; cursor: pointer; text-decoration: underline;}
 </style>
